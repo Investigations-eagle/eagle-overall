@@ -4,14 +4,12 @@ import { RouterModule } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
-import { ReportsWrapperComponent } from './reports-wrapper/reports-wrapper.component';
 import { OverallComponent } from './overall/overall.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ReportsWrapperComponent,
     OverallComponent
   ],
   imports: [
@@ -24,7 +22,7 @@ import { OverallComponent } from './overall/overall.component';
       },
       {
         path: 'reports',
-        component: ReportsWrapperComponent
+        loadChildren: './reports-wrapper/reports-wrapper.module#ReportsWrapperModule'
       }
     ])
   ],

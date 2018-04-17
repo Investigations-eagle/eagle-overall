@@ -2,6 +2,5 @@
 
 Overall container for next apps:
 
-* reports
-* core-eagle
-* insights
+* [reports](https://github.com/Investigations-eagle/reports)
+* [core-eagle](https://github.com/Investigations-eagle/core-eagle)
